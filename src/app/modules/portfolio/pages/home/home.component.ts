@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { HeaderComponent } from '../../components/header/header.component';
 import { KnowledgeComponent } from '../../components/knowledge/knowledge.component';
+import { ExperiencesComponent } from '../../components/experiences/experiences.component';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,7 @@ import { KnowledgeComponent } from '../../components/knowledge/knowledge.compone
     CommonModule, 
     HeaderComponent,
     KnowledgeComponent,
+    ExperiencesComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
