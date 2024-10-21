@@ -9,7 +9,21 @@ import { IProject } from '../../interface/IProject.interface';
   styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
-  public arrayProjects = signal<IProject[]>([
+  public arrayProjects = signal<IProject[]>(
+    [{
+      src: 'assets/img/projects/vfull.png',
+      alt: "Projeto 1",
+      title: "Vida FullStack",
+      width: '100px',
+      height: '51px',
+      description: '<p> Teste <p/>',
+      links: [
+        {
+          name: "Conheça o Blog",
+          href: 'https://www.google.com/'
+        }
+      ]
+    },
     {
       src: 'assets/img/projects/vfull.png',
       alt: "Projeto 1",
@@ -23,7 +37,63 @@ export class ProjectsComponent {
           href: 'https://www.google.com/'
         }
       ]
-    }
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt: "Projeto 1",
+      title: "Vida FullStack",
+      width: '100px',
+      height: '51px',
+      description: '<p> Teste <p/>',
+      links: [
+        {
+          name: "Conheça o Blog",
+          href: 'https://www.google.com/'
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt: "Projeto 1",
+      title: "Vida FullStack",
+      width: '100px',
+      height: '51px',
+      description: '<p> Teste <p/>',
+      links: [
+        {
+          name: "Conheça o Blog",
+          href: 'https://www.google.com/'
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt: "Projeto 1",
+      title: "Vida FullStack",
+      width: '100px',
+      height: '51px',
+      description: '<p> Teste <p/>',
+      links: [
+        {
+          name: "Conheça o Blog",
+          href: 'https://www.google.com/'
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/vfull.png',
+      alt: "Projeto 1",
+      title: "Vida FullStack",
+      width: '100px',
+      height: '51px',
+      description: '<p> Teste <p/>',
+      links: [
+        {
+          name: "Conheça o Blog",
+          href: 'https://www.google.com/'
+        }
+      ]
+    },
   ])
 
 }
